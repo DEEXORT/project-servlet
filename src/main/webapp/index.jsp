@@ -11,13 +11,19 @@
 
 <table>
     <tr>
-        <td>1</td><td>2</td><td>3</td>
+        <td onclick="window.location='/logic?click=0'">1</td>
+        <td onclick="window.location='/logic?click=2'">2</td>
+        <td onclick="window.location='/logic?click=3'">3</td>
     </tr>
     <tr>
-        <td>4</td><td>5</td><td>6</td>
+        <td onclick="window.location='/logic?click=4'">4</td>
+        <td onclick="window.location='/logic?click=5'">5</td>
+        <td onclick="window.location='/logic?click=6'">6</td>
     </tr>
     <tr>
-        <td>7</td><td>8</td><td>9</td>
+        <td onclick="window.location='/logic?click=7'">7</td>
+        <td onclick="window.location='/logic?click=8'">8</td>
+        <td onclick="window.location='/logic?click=9'">9</td>
     </tr>
 </table>
 
