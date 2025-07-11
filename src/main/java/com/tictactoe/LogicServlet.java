@@ -34,6 +34,8 @@ public class LogicServlet extends HttpServlet {
         if (indexFieldEmpty >= 0) {
             fieldData.put(indexFieldEmpty, Sign.NOUGHT);
             if (checkWin(resp, session, field)) return;
+        } else {
+            session.setAttribute("draw", true);
         }
 
         List<Sign> data = field.getFieldData();
