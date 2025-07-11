@@ -30,8 +30,8 @@
 </table>
 
 <hr>
-<c:set var="CROSSES" value="<%=Sign.CROSS%>>"/>
-<c:set var="NOUGHTS" value="<%=Sign.NOUGHT%>>"/>
+<c:set var="CROSSES" value="<%=Sign.CROSS%>"/>
+<c:set var="NOUGHTS" value="<%=Sign.NOUGHT%>"/>
 
 <c:if test="${winner == CROSSES}">
     <h1>CROSSES WIN!</h1>
